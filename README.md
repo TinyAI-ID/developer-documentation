@@ -15,6 +15,16 @@ window.open('https://tinyai.id/surf-instructor?q='+encodeURI('key: cs3i3cyr add 
 
 visit: [tinyai.id/surf-instructor](https://tinyai.id/surf-instructor)
 
+embed
+```html
+<iframe src='https://tinyai.id/surf-instructor'>
+```
+
+*[for devs](https://plugin.tinyai.id)*
+```
+https://plugin.tinyai.id
+```
+
 ---
 
 Embark on your adventure,
