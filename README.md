@@ -1,4 +1,4 @@
-tiny
+tiny 🌊
 
 in javascript environment, (node.js, deno, etc.)
 ```JavaScript
