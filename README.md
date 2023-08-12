@@ -4,6 +4,9 @@ tiny
 ```javascript
 // Open in new page
 window.open('https://tinyai.id/surf-instructor?q='+encodeURI('key: cs3i3cyr add surfing spot; Alacati, Izmir / Turkey'))
+```
+
+```JavaScript
 // Call as API
 fetch('https://tinyai.id/hey?q='+encodeURI('I want to create an surf instructor')) // tiny created.
 ```
