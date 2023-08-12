@@ -15,7 +15,7 @@ fetch('https://tinyai.id/hey?q='+encodeURI('I want to create an surf instructor'
 *create*
 
 ```JavaScript
-fetch('https://tinyai.id/hey?q='+encodeURI('I want to create an surf instructor')) // tiny created.
+window.open('https://tinyai.id/hey?q='+encodeURI('I want to create an surf instructor')) // tiny created.
 ```
 
 > Great! Your surf instructor AI has been created. You can access it using the following URL: surf-instructor.
@@ -26,7 +26,7 @@ fetch('https://tinyai.id/hey?q='+encodeURI('I want to create an surf instructor'
 (key is real, tester key)
 
 ```JavaScript
-fetch('https://tinyai.id/surf-instructor?q='+encodeURI('key: cs3i3cyr add surfing spot; Alacati, Izmir / Turkey'))
+window.open('https://tinyai.id/surf-instructor?q='+encodeURI('key: cs3i3cyr add surfing spot; Alacati, Izmir / Turkey'))
 ```
 >
 
@@ -34,7 +34,7 @@ fetch('https://tinyai.id/surf-instructor?q='+encodeURI('key: cs3i3cyr add surfin
 *talk*
 
 ```JavaScript
-fetch('https://tinyai.id/surf-instructor?q='+encodeURI('best surf spots'))
+window.open('https://tinyai.id/surf-instructor?q='+encodeURI('best surf spots'))
 ```
 >   As a surf instructor, I can recommend some of the best surf spots around the world. Here are a few popular destinations for surfing:
     Pipeline - Oahu, Hawaii: Known for its powerful and challenging waves, Pipeline is one of the most iconic surf spots in the world. It offers incredible barrels and attracts experienced surfers from around the globe.
@@ -48,4 +48,4 @@ fetch('https://tinyai.id/surf-instructor?q='+encodeURI('best surf spots'))
 ---------
 
 start using now,
-tiny
+[tiny](https://tinyai.id)
