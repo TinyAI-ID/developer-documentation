@@ -1,6 +1,6 @@
 # TinyAI Developer Documentation
 
-![getting-started](./assets/tiny-getting-started.png)
+![getting-started](https://github.com/cagataycali/tiny/blob/main/assets/swagger.png)
 
 ## Overview
 
