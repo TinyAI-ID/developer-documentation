@@ -44,6 +44,23 @@ POST /upsert
 }
 ```
 
+### cURL 
+```bash
+curl -X 'POST' \
+  'https://plugin.tinyai.id/upsert' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name": "string",
+  "systemPrompt": "string",
+  "systemKnowledge": "string",
+  "data": "string",
+  "key": "string"
+}'
+
+# Key is optional
+```
+
 ### 2. Get Information of a TinyAI
 
 #### Endpoint:
