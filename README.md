@@ -138,6 +138,108 @@ const response = await openai.createChatCompletion({
 });
 ```
 
+## Example Fetch Requests in JavaScript
+
+### 1. Create/Modify a TinyAI (Upsert)
+
+```javascript
+const upsertData = {
+  name: 'exampleName',
+  systemPrompt: 'examplePrompt',
+  systemKnowledge: 'exampleKnowledge',
+  data: 'exampleData',
+  key: 'optionalKey'
+};
+
+fetch('https://plugin.tinyai.id/upsert', {
+  method: 'POST',
+  headers: {
+    'accept': 'application/json',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(upsertData)
+})
+.then(response => response.json())
+.then(data => {
+  console.log('Upsert Response:', data);
+})
+.catch(error => {
+  console.error('Error:', error);
+});
+```
+
+### 2. Get Information of a TinyAI
+
+```javascript
+const tinyName = 'exampleName';
+
+fetch(`https://plugin.tinyai.id/get?name=${tinyName}`, {
+  method: 'GET',
+  headers: {
+    'accept': 'application/json'
+  }
+})
+.then(response => response.json())
+.then(data => {
+  console.log('Get Information Response:', data);
+})
+.catch(error => {
+  console.error('Error:', error);
+});
+```
+
+### 3. Subscribe to a TinyAI
+
+```javascript
+const subscribeData = {
+  name: 'exampleName',
+  email: 'exampleEmail'
+};
+
+fetch('https://plugin.tinyai.id/subscribe', {
+  method: 'POST',
+  headers: {
+    'accept': 'application/json',
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(subscribeData)
+})
+.then(response => response.json())
+.then(data => {
+  console.log('Subscribe Response:', data);
+})
+.catch(error => {
+  console.error('Error:', error);
+});
+```
+
+#### 4. Send Notification from a TinyAI
+
+```bash
+curl -X 'POST' \
+  'https://plugin.t4y.ai/notification' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "from": "string",
+  "message": "string",
+  "key": "string"
+}'
+```
+
+#### 5. Send applause to a TinyAI Owner
+
+```bash
+curl -X 'POST' \
+  'https://plugin.tinyai.id/applause' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "name": "string",
+  "message": "string"
+}'
+```
+
 ## Additional Notes
 
 The `key` is optional when creating or modifying a TinyAI. If provided, it offers an extra layer of security.

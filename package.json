@@ -1,0 +1,14 @@
+{
+  "name": "tinyai.id",
+  "version": "1.0.0",
+  "description": "TinyAI.ID",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tinyai"
+  ],
+  "author": "Cagatay Cali",
+  "license": "ISC"
+}
