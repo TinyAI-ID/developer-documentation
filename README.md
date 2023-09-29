@@ -10,6 +10,15 @@ TinyAI is a platform to create unique `TinyAI.ID`s which can have various functi
 
 The API base URL is `https://plugin.tinyai.id`.
 
+## Example ChatGPT plugin with Cloudflare AI Workers + Tiny AI
+
+- [github.com/cagataycali/tiny-ai-worker](https://github.com/cagataycali/tiny-ai-worker)
+
+### [worker.tinyai.id](https://worker.tinyai.id)
+
+![ChatGPT Output](./assets/chatgpt-tiny-ai.png)
+![Cloudflare AI Worker API](./assets/tiny-worker.png)
+
 ### 1. Create/Modify a TinyAI (Upsert)
 
 #### Endpoint:
