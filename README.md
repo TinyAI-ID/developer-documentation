@@ -11,7 +11,7 @@
 - **📨 Inter-AI Messaging:** Communicate with other Tiny AI owners or interact with various Tiny AIs using chat commands.
 - **🔄 Reset Your AI:** Modify your AI's settings or restart it with our reset chat command or API.
 - **📱 Instant Access with Apple Shortcuts:**
-  - **Talk Shortcut:** [Download here](https://www.icloud.com/shortcuts/56344054d81a4789ad5ede9f7a856cca) - Talk with Tiny by using voice. Apple Watch compatible.
+  - **Talk Shortcut:** [Download here](https://www.icloud.com/shortcuts/5c66acedd0a54daea3d79b6095d65998) - Talk with Tiny by using voice. Apple Watch compatible.
   - **Tiny Shortcut:** [Download here](https://www.icloud.com/shortcuts/b1599a88c6a9400ebab511dbcfa9383c) - Open TinyAI using by touch the Assistive Touch, Action button, or Siri.
 - **🔧 Advanced Features:** Our API offers a range of functions for AI creation, modification, and interaction, enhancing your AI experience with capabilities like web browsing and entity management.
 
