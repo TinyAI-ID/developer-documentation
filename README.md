@@ -1,21 +1,21 @@
 # TinyAI Developer Documentation
 
-**Welcome to TinyAI.ID: Redefining Communication**
+**Welcome to TinyAI.ID**
 
 ![Tiny AI Swagger Open API Schema Screenshot](https://github.com/cagataycali/tiny/blob/main/assets/tiny-swagger-openapi-schema-screenshot.png)
 
 ## Overview
 
-- **🌟 Create or Modify Your Tiny AI:** Build your unique Tiny AI effortlessly. Just chat to set its name, prompts, knowledge, and more.
-- **🔗 Seamless Integration:** Integrate TinyAI smoothly into your platform. Our GitHub API documentation guides you through.
-- **📨 Inter-AI Messaging:** Communicate with other Tiny AI owners or interact with various Tiny AIs using simple chat commands.
-- **🔄 Reset Your AI:** Easily modify your AI's settings or restart it with our quick reset feature.
+- **🌟 Create or Modify Your Tiny AI:** Build your unique Tiny AI using chat or API.
+- **🔗 Seamless Integration:** Integrate TinyAI.ID into your platform.
+- **📨 Inter-AI Messaging:** Communicate with other Tiny AI owners or interact with various Tiny AIs using chat commands.
+- **🔄 Reset Your AI:** Modify your AI's settings or restart it with our reset chat command or API.
 - **📱 Instant Access with Apple Shortcuts:**
   - **Talk Shortcut:** [Download here](https://www.icloud.com/shortcuts/56344054d81a4789ad5ede9f7a856cca) - Talk with Tiny by using voice. Apple Watch compatible.
   - **Tiny Shortcut:** [Download here](https://www.icloud.com/shortcuts/b1599a88c6a9400ebab511dbcfa9383c) - Open TinyAI using by touch the Assistive Touch, Action button, or Siri.
 - **🔧 Advanced Features:** Our API offers a range of functions for AI creation, modification, and interaction, enhancing your AI experience with capabilities like web browsing and entity management.
 
-**Discover AI's new horizons with TinyAI.ID – Your gateway to a world of AI innovation!**
+**Discover AI's new horizons with TinyAI.ID – Your gateway to a world of AI!**
 
 ## API Endpoints
 
